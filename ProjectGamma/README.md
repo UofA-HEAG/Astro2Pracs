@@ -3,11 +3,16 @@
 Topics: Fermi-LAT, CTA, statistics, python programming, Active Galactic Nuclei, Extragalactic Background Light
 
 ## Motivation
-What's interesting about AGNs?
-Gamma-ray astronomy. HE vs VHE. IACTs.
-What is CTA?
-CTA will work as open observatory. Like for most observatories / experiments, observation proposals have to be written for that. 
-Therefore: Choose target and prepare everything you need for a proposal. Describe why they are interesting, how you picked them and what the detection prospects are. This is summarising the following work.
+
+Active Galactic Nuclei (AGN) are astrophysical objects, emitting radiation over the complete electromagnetic spectrum. A supermassive black hole in the centre of a galaxy is accreting matter from its surroundings, the accretion disc, and the main power source of an AGN. Above the disc, the broad line region can be found, producing broad emission lines in the optical and ultraviolet range. A dust tours sourrounds the accretion disc, obscuring often the inner part of the AGN depending on the viewing angle. Beyond the broad line region, there is the narrow line region, which emits narrow emission and absorption lines. Depending on the accretion rate, two strongly collimated relativistic jets, perpendicular to the accretion disc, can be produced.
+Different wavebands provide different windows to AGN physics: The infrared band is mostly sensitive to obscuring material and dust, the optical/ultraviolet band is connected to the emission from the accretion disc, and the X-ray band traces the emission of a corona. In the radio and gamma-ray band strong non-thermal radiation is emitted, related to the jet.
+
+Gamma-ray astronomy is a rather young research field and covers the study of the upper part of the electromagnetic spectrum (MeV to TeV energy regime). Depending on the targeted energy of the gamma rays, the measurement with satellite- or ground-based instruments is advantageous. High-energy (HE) gamma rays are typically measured with satellites, while very-high-energy (VHE) gamma rays are measured from the ground. Imaging Air Cherenkov Telescopes (IACTs) measure the Cherenkov light that is emitted by the extensive air shower, initiated by the gamma ray interacting with the Earth's atmosphere. The particles of this shower can also be detected using the water Cherenkov method.
+
+The Cherenkov Telescope Array (CTA) is the next-generation observatory for ground-based gamma-ray astronomy. With more than 100 telescopes equipped with state-of-the-art technologies, it will achieve unprecedented sensitivity and angular resolution, providing a new view of the sky at energies from 20 GeV to more than 300 TeV.
+
+CTA will be operated as a proposal-driven open observatory. This means that every observation has to be requested and an observation proposal has to be written. Therefore, this research project focuses on the necessary steps to develop such a proposal. 
+
 
 ## Schedule
 * Week 3 (August 10): Overleaf. Introduction gamma-ray astronomy.
