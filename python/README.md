@@ -22,7 +22,7 @@ The examples in this folder are so-called *ipython notebooks* (.ipynb). They can
 
 ### Execute Code
 
-Just type `Shift+Enter` to execute a cell.
+Just press `Shift+Enter` to execute a cell.
 
 ### Help
 
