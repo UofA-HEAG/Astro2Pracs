@@ -12,7 +12,7 @@ Overleaf is a cloud-based LaTeX tool to write, edit and collaborate on scientifi
 Select one person from your group to do the following:
 
 -	Download the zip-file 'template.zip'
--	Click `New Project` on the top left
+-	Click `New Project` on the top left and then 'Upload Project'
 -	Click `Share` on the top right and share the project with the other group members
 
 ## Creating a document
