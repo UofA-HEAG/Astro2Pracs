@@ -27,6 +27,13 @@ CTA will be operated as a proposal-driven open observatory. This means that ever
 
 ## Tasks
 
+* **Introduction**. Read up on the following keywords: Astroparticle physics, gamma-ray astronomy, imaging air cherenkov telescopes, Cherenkov Telescope Array, Fermi-LAT, Active Galactic Nuclei, extragalactic background light. 
+Think about the following questions: 
+    - What is astroparticle physics? Which particles are studied in this field? What are the advantages and disadvantages of each of these particles?
+    - What is gamma-ray astronomy? How can gamma rays be measured? What are the advantages and disadvantages of the different techniques? Which measurement is used in which energy regime? 
+    - What are Active Galactic Nuclei (AGN)? Which subtypes of AGN exist and how are they distinguished?
+    - What is the extragalactic background light? How does this light influence gamma rays and the gamma-ray spectrum measured at Earth?
+    
 * **Selection of the AGN to be observed.** Select 2 AGNs: 1. One that has already been studied with IACTs. 2. One that has not been detected with IACTs, but with Fermi-LAT.
     - A catalog of sources detected in VHE can be found here: http://tevcat.uchicago.edu. If you click on a source, it will give you more information including publications about the source.
     - A catalog of sources detected in HE (Fermi-LAT) can be found here: https://fermi.gsfc.nasa.gov/ssc/data/access/lat/8yr_catalog/. Fermi-LAT is a gamma-ray telescope on a satellite. Make sure, that the redshift of your source is known. So far, sources up to redshifts of 0.9 could have been detected in the VHE range.
