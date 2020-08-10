@@ -13,7 +13,7 @@ Select one person from your group to do the following:
 
 -	Download the zip-file 'template.zip'
 -	Click `New Project` on the top left and then 'Upload Project'
--	Click `Share` on the top right and share the project with the other group members
+-	Click `Share` on the top right and share the project with the other group members by clicking 'Turn on link sharing' and providing the link to the other group memebers
 
 ## Creating a document
 -	Click on `Menu` and select `LuaLaTeX` as Compiler
