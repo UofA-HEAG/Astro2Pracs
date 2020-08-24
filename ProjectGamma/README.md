@@ -55,7 +55,7 @@ Think about the following questions:
 
 * **Simulation of a CTA measurement**. The python package gammapy allows a simulation of how many events would be measured by a specific telescope configuration (CTA site, telescope types) under specific observational conditions (zenith angle, pointing offset) in a given time for a specific spectrum. 
     - An example can be found here: https://docs.gammapy.org/0.17/notebooks/spectrum_simulation.html
-    - Plot the effective area vs energy for different sites, telescope types, zenith angles and pointing offsets. 
+    - Plot the effective area vs energy for different sites, telescope types, zenith angles and pointing offsets (currently only Instrument Response Functions for CTA-South and zenith angle of 20deg available). 
 
 * **Estimation of required observation time**. How many hours are required to detect the source? How many hours are required to derive a spectrum with 3 energy bins and a binning of 5 bins per decade?
 
