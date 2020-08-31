@@ -57,9 +57,11 @@ Think about the following questions:
     - An example can be found here: https://docs.gammapy.org/0.17/notebooks/spectrum_simulation.html
     - Plot the effective area vs energy for different sites, telescope types, zenith angles and pointing offsets (currently only Instrument Response Functions for CTA-South and zenith angle of 20deg available). 
 
-* **Estimation of required observation time**. How many hours are required to detect the source? How many hours are required to derive a spectrum with 3 energy bins and a binning of 5 bins per decade?
+* **Estimation of required observation time**. How many hours are required to detect the source? How many hours are required to derive a spectrum with 3 energy bins and a binning of 3 bins per decade?
+    - Use Non, Noff from the previous task
     - To calculate a significance, consider the following paper: http://articles.adsabs.harvard.edu/pdf/1983ApJ...272..317L
     - Calculate both, equation (17) and Nexcess / sqrt(Noff)
+    - To get a rough estimate of the observation time, you can scale the counts with the observation time. Once you have this estimate, run the simulation (previous task) again.
 
 * **Visibility**. IACTs can only observe during night time. Depending on the location of the telescope, different parts of the sky are visible under different zenith angles.
     - You can derive the visibility of your source for different telescope locations here: http://tevcat.uchicago.edu/CustomVis.pl. For CTA-North, choose "MAGIC".
