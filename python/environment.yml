@@ -23,8 +23,6 @@ dependencies:
   - astropy=4.0
   - regions=0.4
   - iminuit=1.3.8
-  - sherpa=4.12.0
-  - healpy=1.13
   - naima=0.9.1
   - pydantic=1.2
   - emcee=2.2.1
