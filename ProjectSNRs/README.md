@@ -28,12 +28,13 @@ This research project aims to model the cosmic rays and gamma rays from supernov
 
 ## Tasks
 
-* **Introduction**. Read up on the following keywords: Astroparticle physics, gamma-ray astronomy, supernova remnants, diffusive shock accleration, Fermi acceleration I and II, . 
+* **Introduction**. Read up on the following keywords: Astroparticle physics, gamma-ray astronomy, HESS Galactic Plane Survey (HGPS), supernova remnants, diffusive transport/propagation. 
 Think about the following questions: 
     - What is astroparticle physics? Which particles are studied in this field? What are the advantages and disadvantages of each of these particles?
     - What is gamma-ray astronomy? How can gamma rays be measured? What are the advantages and disadvantages of the different techniques? Which measurement is used in which energy regime? 
+    - What is the HGPS? What are the source types and their number counts?
     - What are Supernova Remnants (SNRs)? How do they evolve with age? Through which phases do they go?
-    - There are 2 basic scenarios the accleration of cosmic rays in SNRs: Leptonic and hadronic. What processes are involved / possible to create gamma rays?
+    - There are 2 basic scenarios regarding the accleration of cosmic rays in SNRs: Leptonic and hadronic. What processes are involved / possible to create gamma rays?
     
 * **Modeling Cosmic-ray Protons**. Here and in the following we will only consider cosmic-ray protons from an impulsive accelerator. Implement different models for generating proton spectra (energy vs flux) by implementing a function (-> `def`) with `(E,R,t)` as input and `J(E,R,t)` as output. The basic equations come from http://articles.adsabs.harvard.edu/pdf/1996A%26A...309..917A. Assume that t << tau_pp. Model parameters should be free parameters and be added to your input. Use `astropy.units` in this task.
 
@@ -52,16 +53,17 @@ Think about the following questions:
     - Time development delta_p: 0.5, 1.5, 2.5
 Moreover, compare the different models with similar parameters to each other. How do they differ?
 
-* **Investigation of Gamma-Ray Models**
+* **Investigation of Gamma-Ray Models** For one model, compare how different parameters influence the resulting spectrum. For example:
     - nH: 100, 200, 300 1/cm^3
-    - Distance: 1, 5, 10 kpc
-    - Cloud extension: 100 pc
+    - Distance Earth to cloud: 1, 5, 10 kpc
+    - Distance SNR centre to cloud: 10, 50, 150, 200, 250 pc
+    - Cloud extension: 50, 100 pc
 
-* **Plotting in astropy**. (HESS J1804)
-    - Candidate 1
-    - Candidate 2
+* **Plotting in astropy**. In the following, we will investigate the unidentified gamma-ray source HESS J1804-216 from the HGPS. In previous studies, it was found that there are 2 promising candidates to be the accelerator of this source. Candidate 1: The SNR G8.7-0.1. Candidate 2: The progenitor SNR of the pulsar PSR 1803-2137. 
+    - Download the significance map from the HGPS () and plot the region of interest with astropy.
+    - Overlay the map with the positions of the 2 candidates and HESS J1804-216. For the pulsar, also mark the birth location (can be calculated by considering the proper motion and age, which can be found in the ATNF pulsar catalog).
 
-* **Model morphology**
+* **Model morphology** 
     - Use Sabrina's code
     - Find best parameters
 What is the best candidate to be the origin of the unidentified gamma-ray source HESS J1804-216? What are the properties of the model?
