@@ -19,7 +19,7 @@ This research project aims to model the cosmic rays and gamma rays from supernov
 * Week 3 (August 9): Overleaf. Introduction.
 * Week 4: Python
 * Week 5: Modeling
-* Week 6: Plotting
+* Week 6: Plotting / Morphology
 * Week 7: Morphology
 * Week 8 (September 13): Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
 * Week 9 (October 4): Public holiday
