@@ -66,7 +66,7 @@ Think about the following questions:
 * **Visibility**. IACTs can only observe during night time. Depending on the location of the telescope, different parts of the sky are visible under different zenith angles.
     - You can derive the visibility of your source for different telescope locations here: http://tevcat.uchicago.edu/CustomVis.pl. For CTA-North, choose "MAGIC".
     - Which CTA site is better suited - CTA-North or CTA-South?
-    - Show the visibility for your source for the year 2021.
+    - Show the visibility for your source for the year 2022.
     - Determine the time windows and zenith angles that are best suited to observe the proposed sources
 
 * **Description of the proposed observations**. Based on the above, describe the observations you would request in a proposal.
