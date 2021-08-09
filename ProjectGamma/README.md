@@ -54,7 +54,7 @@ Think about the following questions:
     - Ask Sabrina for data of the optical depth for the redshift of your source
 
 * **Simulation of a CTA measurement**. The python package gammapy allows a simulation of how many events would be measured by a specific telescope configuration (CTA site, telescope types) under specific observational conditions (zenith angle, pointing offset) in a given time for a specific spectrum. 
-    - An example can be found here: https://docs.gammapy.org/0.17/notebooks/spectrum_simulation.html
+    - An example can be found here: https://docs.gammapy.org/0.18.2/tutorials/spectrum_simulation.html
     - Plot the effective area vs energy for different sites, zenith angles and pointing offsets (North/South site, 20/40 deg zenith). 
 
 * **Estimation of required observation time**. How many hours are required to detect the source? How many hours are required to derive a spectrum with 3 energy bins and a binning of 3 bins per decade?
