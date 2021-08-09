@@ -17,7 +17,7 @@ Note: Here, 'Terminal' refers to the 'Anaconda Prompt'.
 
 #### Linux
 -	The Anaconda Installers can be found at the bottom of this page: https://www.anaconda.com/products/individual
--	Download the Installer for Python 3.7 under Linux for your system (probably x86)
+-	Download the Installer for Python 3.8 under Linux for your system (probably x86)
 -	In terminal:
 
 ```
