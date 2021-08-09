@@ -46,7 +46,7 @@ Think about the following questions:
 * **Fermi-LAT spectrum**. Based on the above catalog, plot the spectral function and data points with uncertainties. Think about how to illustrate uncertainties and where to plot uncertainty bars. Calculate the uncertainty region of the spectral function (it will create a "butterfly").
 
 * **Multi-wavelength spectral energy distributions**. Plot a spectral energy distribution (SED).
-    - A SED builder tool can be found here: https://tools.ssdc.asi.it/cas/login?gateway=true&service=https%3A%2F%2Ftools.ssdc.asi.it%2FSED%2F. It shows you the SED, but you can also use it to download the data.
+    - A SED builder tool can be found here: https://tools.ssdc.asi.it/SED/. It shows you the SED, but you can also use it to download the data.
     - If sufficient data is available, plot the SED for different time ranges, for example for times of a flare.
 
 * **Estimation of the VHE spectrum based on the HE spectrum**. Gamma rays travelling through the Universe interact with the extragalactic background light (EBL) and will be absorbed. This means that the spectrum measured at Earth is different from the intrinsic spectrum at the source. To estimate the spectrum in VHE, the spectrum in HE can be extrapolated and corrected for the EBL.
