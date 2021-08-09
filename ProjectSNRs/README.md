@@ -22,8 +22,8 @@ This research project aims to model the cosmic rays and gamma rays from supernov
 * Week 6: Plotting
 * Week 7: Morphology
 * Week 8 (September 13): Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
-* Week 9 (October 5): Public holiday
-* October 8: Submission of the group report (!)
+* Week 9 (October 4): Public holiday
+* October 5: Submission of the group report (!)
 
 
 ## Tasks
