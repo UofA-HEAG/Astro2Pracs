@@ -60,10 +60,10 @@ Moreover, compare the different models with similar parameters to each other. Ho
     - Cloud extension: 50, 100 pc
 
 * **Plotting in astropy**. In the following, we will investigate the unidentified gamma-ray source HESS J1804-216 from the HGPS. In previous studies, it was found that there are 2 promising candidates to be the accelerator of this source. Candidate 1: The SNR G8.7-0.1. Candidate 2: The progenitor SNR of the pulsar PSR 1803-2137. 
-    - Download the significance map from the HGPS () and plot the region of interest with astropy.
+    - Download the flux map from the HGPS (https://www.mpi-hd.mpg.de/hfm/HESS/hgps/) and plot the region of interest with astropy.
     - Overlay the map with the positions of the 2 candidates and HESS J1804-216. For the pulsar, also mark the birth location (can be calculated by considering the proper motion and age, which can be found in the ATNF pulsar catalog).
 
-* **Model morphology** A dedicated python code as been developed to use the above equations to model the morphology of protons and gamma rays in detail. Install and use this code to model HESS J1804-216 in detail. 
+* **Model morphology** A dedicated python code has been developed to use the above equations to model the morphology of protons and gamma rays in detail. Install and use this code to model HESS J1804-216 in detail. 
     - Ask Sabrina for the code, the gas maps and some settings to start with.
     - Run the code for different settings and compare to the HGPS observations to find the best match between model and observations.
 What is the best candidate to be the origin of the unidentified gamma-ray source HESS J1804-216? What are the properties of the model?
