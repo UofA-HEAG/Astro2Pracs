@@ -48,8 +48,7 @@ Think about the following questions:
 * **Investigation of Cosmic-Ray Proton Models**. For every model, compare how different parameters influence the resulting spectrum. For example:
     - Age: 1, 10, 100 kyrs
     - Distance R to SNR centre: 10, 50, 150, 200, 250 pc
-    - Diffusion coefficient D0: 1e26, 1e28 cm^2/s
-    - Diffusion parameters: Chi 1, 0.1, 0.01, delta 0.3, 0.5, 0.7
+    - Diffusion parameters: chi 1, 0.1, 0.01, delta 0.3, 0.5, 0.7
     - Time development delta_p: 0.5, 1.5, 2.5
 Moreover, compare the different models with similar parameters to each other. How do they differ?
 
