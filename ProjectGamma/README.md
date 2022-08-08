@@ -37,6 +37,7 @@ Think about the following questions:
 * **Selection of the AGN to be observed.** Select 2 AGNs: 1. One that has already been studied with IACTs. 2. One that has not been detected with IACTs, but with Fermi-LAT.
     - A catalog of sources detected in VHE can be found here: http://tevcat.uchicago.edu. If you click on a source, it will give you more information including publications about the source.
     - A catalog of sources detected in HE (Fermi-LAT) can be found here: https://fermi.gsfc.nasa.gov/ssc/data/access/lat/8yr_catalog/. Fermi-LAT is a gamma-ray telescope on a satellite. Make sure, that the redshift of your source is known. So far, sources up to redshifts of 0.9 could have been detected in the VHE range.
+You might want to consider Key Science Project "AGNs" in the CTA Science Book for some inspiration: https://arxiv.org/abs/1709.07997
 
 * **Literature review of the selected AGN.** 
     - Publications
