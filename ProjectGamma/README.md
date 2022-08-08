@@ -15,14 +15,14 @@ CTA will be operated as a proposal-driven open observatory. This means that ever
 
 
 ## Schedule
-* Week 3 (August 9): Overleaf. Introduction gamma-ray astronomy.
+* Week 3 (August 8): Overleaf. Introduction gamma-ray astronomy.
 * Week 4: Python
 * Week 5: Tasks
 * Week 6: Tasks
 * Week 7: Tasks
-* Week 8 (September 13): Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
-* Week 9 (October 4): Public holiday
-* October 5: Submission of the group report (!)
+* Week 8 (September 12): Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
+* Week 9 (October 3): Public holiday
+* October 4: Submission of the group report (!)
 
 
 ## Tasks
