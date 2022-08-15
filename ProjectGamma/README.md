@@ -38,7 +38,7 @@ Think about the following questions:
     - A catalog of sources detected in VHE can be found here: http://tevcat.uchicago.edu. If you click on a source, it will give you more information including publications about the source.
     - A catalog of sources detected in HE (Fermi-LAT) can be found here: https://fermi.gsfc.nasa.gov/ssc/data/access/lat/8yr_catalog/. Fermi-LAT is a gamma-ray telescope on a satellite. Make sure, that the redshift of your source is known. So far, sources up to redshifts of 0.9 could have been detected in the VHE range.
    
-You might want to consider the Key Science Project "AGNs" in the CTA Science Book for some inspiration: https://arxiv.org/abs/1709.07997
+You should have a scientific motivation for your choice. Expanding the number of FSRQs detected in TeV? Deep observation, possible with MWL coverage? Monitoring campaign? You might want to consider the Key Science Project "AGNs" in the CTA Science Book for some inspiration: https://arxiv.org/abs/1709.07997
 
 * **Literature review of the selected AGN.** 
     - Publications
@@ -57,7 +57,8 @@ You might want to consider the Key Science Project "AGNs" in the CTA Science Boo
 
 * **Simulation of a CTA measurement**. The python package gammapy allows a simulation of how many events would be measured by a specific telescope configuration (CTA site, telescope types) under specific observational conditions (zenith angle, pointing offset) in a given time for a specific spectrum. 
     - An example can be found here: https://docs.gammapy.org/0.18.2/tutorials/spectrum_simulation.html
-    - Plot the effective area vs energy for different sites, zenith angles and pointing offsets (North/South site, 20/40 deg zenith). 
+    - Plot the effective area vs energy for different sites, zenith angles and pointing offsets (North/South site, 20/40 deg zenith - ask Sabrina for the IRFs). 
+    - Calculate Non, Noff for different configurations of telescopes and observation. You will need a functional form of the spectrum.
 
 * **Estimation of required observation time**. How many hours are required to detect the source? How many hours are required to derive a spectrum with 3 energy bins and a binning of 3 bins per decade?
     - Use Non, Noff from the previous task
@@ -68,7 +69,7 @@ You might want to consider the Key Science Project "AGNs" in the CTA Science Boo
 * **Visibility**. IACTs can only observe during night time. Depending on the location of the telescope, different parts of the sky are visible under different zenith angles.
     - You can derive the visibility of your source for different telescope locations here: http://tevcat.uchicago.edu/CustomVis.pl. For CTA-North, choose "MAGIC".
     - Which CTA site is better suited - CTA-North or CTA-South?
-    - Show the visibility for your source for the year 2022.
+    - Show the visibility for your source for the year 2023.
     - Determine the time windows and zenith angles that are best suited to observe the proposed sources
 
 * **Description of the proposed observations**. Based on the above, describe the observations you would request in a proposal.
