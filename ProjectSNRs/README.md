@@ -46,7 +46,7 @@ Think about the following questions:
 * **Modeling Gamma Rays**. Based on a model of cosmic-ray protons, gamma rays can be modeled using https://journals.aps.org/prd/abstract/10.1103/PhysRevD.74.034018. Implement a function with the following inputs: proton model (previous task), volume and number density of a cloud, distance between cloud and Earth. 
 
 * **Investigation of Cosmic-Ray Proton Models**. For every model, compare how different parameters influence the resulting spectrum. For example:
-    - Age: 1, 10, 100 kyrs
+    - Age: 1, 10, 50 kyrs
     - Distance R to SNR centre: 10, 50, 150, 200, 250 pc
     - Diffusion parameters: chi 1, 0.1, 0.01, delta 0.3, 0.5, 0.7
     - Time development delta_p: 0.5, 1.5, 2.5
