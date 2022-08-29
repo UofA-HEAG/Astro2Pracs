@@ -9,23 +9,25 @@ channels:
   - sherpa
 
 dependencies:
-  - gammapy=0.17
-  - python=3.7.0
-  - ipython=7.10
+  - gammapy=0.20
+  - python=3.8
+  - ipython=8.3
+  - cython
   - jupyter
-  - jupyterlab=2.0.1
-  - pyyaml=5.2
-  - click=7.0
-  - numpy=1.18.1
-  - scipy=1.4.1
-  - pandas=0.25
-  - matplotlib=3.2.1
-  - astropy=4.0
-  - regions=0.4
-  - iminuit=1.3.8
-  - naima=0.9.1
-  - pydantic=1.2
-  - emcee=2.2.1
-  - corner=2.0
-  - parfive=1.0
+  - jupyterlab=3.4.0
+  - pyyaml=6.0
+  - click=8.1.3
+  - numpy=1.22.3
+  - scipy=1.8.0
+  - pandas=1.4.2
+  - matplotlib=3.5.2
+  - astropy=5.0
+  - regions=0.6
+  - iminuit=2.11.2
+  - healpy=1.15
+  - naima=0.10.0
+  - pydantic=1.9.0
+  - emcee=3.1.1
+  - corner=2.2.1
   - pip
+  - requests
