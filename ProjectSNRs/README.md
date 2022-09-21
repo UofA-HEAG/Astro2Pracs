@@ -40,7 +40,7 @@ Think about the following questions:
 
     1. Emission from SNR centre.
     2. Emission from SNR centre if t > escape time. An equation for the escape time can be found in https://ui.adsabs.harvard.edu/abs/2009MNRAS.396.1629G.
-    3. Emission from shell with escape radius. An equation for the escape radius can be found in https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.46.060407.145237.
+    3. Emission from shell with escape radius. An equation for the escape radius can be found in https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.46.060407.145237. You can use tsedov=1600yr. 
     4. Emission from shell with escape radius if t > escape time.
 
 * **Modeling Gamma Rays**. Based on a model of cosmic-ray protons, gamma rays can be modeled using https://journals.aps.org/prd/abstract/10.1103/PhysRevD.74.034018. Implement a function with the following inputs: proton model (previous task), volume and number density of a cloud, distance between cloud and Earth. 
