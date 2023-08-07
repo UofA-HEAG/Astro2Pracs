@@ -9,6 +9,8 @@ The material in this repository is for the practicals of the course *Astrophysic
 
 ## Project-Specific Material
 
+* `ProjectSNR`: Here you can find information for the research project **Gamma-Ray Observations and Modelling of Supernova Remnants**
+
 * `ProjectGamma`: Here you can find information for the research project **Gamma-Ray Observations of Active Galactic Nuclei**
 
 * `ProjectNeutrino`: Here you can find information for the research project **Unravelling the Origin of Astrophysical Neutrinos**
