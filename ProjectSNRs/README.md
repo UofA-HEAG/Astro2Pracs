@@ -36,14 +36,14 @@ Think about the following questions:
     - What are Supernova Remnants (SNRs)? How do they evolve with age? Through which phases do they go?
     - There are 2 basic scenarios regarding the accleration of cosmic rays in SNRs: Leptonic and hadronic. What processes are involved / possible to create gamma rays?
     
-* **Modelling Cosmic-ray Protons**. Here and in the following we will only consider cosmic-ray protons from an impulsive accelerator. Implement different models for generating proton spectra (energy vs flux) by implementing a function (-> `def`) with `(E,R,t)` as input and `J(E,R,t)` as output. The basic equations come from http://articles.adsabs.harvard.edu/pdf/1996A%26A...309..917A. Assume that t << tau_pp. Model parameters should be free parameters and be added to your input. Use `astropy.units` in this task.
+* **Modelling Cosmic-ray Protons**. Here and in the following we will only consider cosmic-ray protons from an impulsive accelerator. Develop different models for generating proton spectra (energy vs flux). The basic equations come from http://articles.adsabs.harvard.edu/pdf/1996A%26A...309..917A. Assume that t << tau_pp.
 
     1. Emission from SNR centre.
     2. Emission from SNR centre if t > escape time. An equation for the escape time can be found in https://ui.adsabs.harvard.edu/abs/2009MNRAS.396.1629G.
     3. Emission from shell with shock radius. An equation for the shock radius can be found in https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.46.060407.145237. You can use tsedov=1600yr. 
     4. Emission from shell with time-dependent escape radius (shock radius at escape time).
 
-* **Investigation of Cosmic-Ray Proton Models**. For every model, compare how different parameters influence the resulting spectrum. For example:
+* **Investigation of Cosmic-Ray Proton Models**. For every model, compare how different parameters influence the resulting spectrum. Use partISM for this. For example:
     - Age: 1, 10, 50 kyrs
     - Distance R to SNR centre: 10, 50, 150, 200, 250 pc
     - Diffusion parameters: D0 1e27, 1e28, delta 0.3, 0.5, 0.7
@@ -57,7 +57,7 @@ RX J1713.7-3946 is a young SNR and a prime candidate to search for escaping cosm
   
 * **Plotting in astropy**. In the following, investigate one or more of the above SNRs.
     - Download the flux map from the HGPS (https://www.mpi-hd.mpg.de/hfm/HESS/hgps/) and plot the region of interest with astropy.
-    - Overlay the map with important information obtained from other observations. For example, in case of HESS J1804-216, the positions of the 2 candidates and HESS J1804-216. For the pulsar, also mark the birth location (can be calculated by considering the proper motion and age, which can be found in the ATNF pulsar catalog).
+    - Overlay the map with important information obtained from other observations. For example, in case of HESS J1804-216, the positions of the 2 candidates and HESS J1804-216. For the pulsar, also mark the birth location (can be calculated by considering the proper motion and age, which can be found in the ATNF pulsar catalog). In case of W28 and RX J1713, plot the current extension of the SNR as a circle. 
 
 * **Model morphology** A dedicated python code has been developed to use the above equations to model the morphology of protons and gamma rays in detail. Install and use this code to model the chosen SNR(s) in detail. 
     - Ask Sabrina for the code, the gas maps and some settings to start with.
