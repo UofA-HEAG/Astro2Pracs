@@ -43,12 +43,18 @@ Think about the following questions:
     3. Emission from shell with shock radius. An equation for the shock radius can be found in https://www.annualreviews.org/doi/abs/10.1146/annurev.astro.46.060407.145237. You can use tsedov=1600yr. 
     4. Emission from shell with time-dependent escape radius (shock radius at escape time).
 
-* **Investigation of Cosmic-Ray Proton Models**. For every model, compare how different parameters influence the resulting spectrum. Use partISM for this. For example:
+* **Investigation of Cosmic-Ray Proton Models**. Compare the different models with similar parameters to each other. Use partISM for this. How do they differ?
+
+* **Investigation of Gamma-Ray Models** A dedicated python code has been developed to use the above equations to model the morphology of protons and gamma rays in detail. Install and use this code to model the chosen SNR(s) in detail. Ask Sabrina for the code, the gas maps and some settings to start with.
+
+Compare how different parameters (for the cosmic-ray model, ISM and accelerator characteristics) influence the resulting gamma-ray spectrum. Use partISM for this. For example:
+    - nH: 100, 200, 300 1/cm^3
+    - Distance Earth to cloud: 1, 5, 10 kpc
+    - Distance SNR centre to cloud: 10, 50, 150, 200, 250 pc
     - Age: 1, 10, 50 kyrs
     - Distance R to SNR centre: 10, 50, 150, 200, 250 pc
     - Diffusion parameters: D0 1e27, 1e28, delta 0.3, 0.5, 0.7
     - Time development delta_p: 0.5, 1.5, 2.5
-Moreover, compare the different models with similar parameters to each other. How do they differ?
 
 * **Investigation of one or more Supernova Remnants**. Consider the following SNRs: HESS J1804-216, W28 and RX J1713.7-3946.
 HESS J1804-216 is an unidentified gamma-ray source. In previous studies, it was found that there are 2 promising candidates to be the accelerator of this source. Candidate 1: The SNR G8.7-0.1. Candidate 2: The progenitor SNR of the pulsar PSR 1803-2137.
@@ -56,18 +62,12 @@ W28 is an old SNR and a prime candidate to study cosmic-ray diffusion, as the ad
 RX J1713.7-3946 is a young SNR and a prime candidate to search for escaping cosmic rays with PeV energies, as only the most energetic particles had a chance to escape in such a short time frame (given the young age).
   
 * **Plotting in astropy**. In the following, investigate one or more of the above SNRs.
-    - Download the flux map from the HGPS (https://www.mpi-hd.mpg.de/hfm/HESS/hgps/) and plot the region of interest with astropy.
-    - Overlay the map with important information obtained from other observations. For example, in case of HESS J1804-216, the positions of the 2 candidates and HESS J1804-216. For the pulsar, also mark the birth location (can be calculated by considering the proper motion and age, which can be found in the ATNF pulsar catalog). In case of W28 and RX J1713, plot the current extension of the SNR as a circle. 
+    - Download the flux (and significance) map from the HGPS (https://www.mpi-hd.mpg.de/hfm/HESS/hgps/) and plot the region of interest with astropy.
+    - Overlay the map with important information obtained from other observations. For example, in case of HESS J1804-216, the positions of the 2 candidates and HESS J1804-216. For the pulsar, also mark the birth location (can be calculated by considering the proper motion and age, which can be found in the ATNF pulsar catalog). In case of W28 and RX J1713, plot the current extension of the SNR as a circle.
 
-* **Model morphology** A dedicated python code has been developed to use the above equations to model the morphology of protons and gamma rays in detail. Install and use this code to model the chosen SNR(s) in detail. 
-    - Ask Sabrina for the code, the gas maps and some settings to start with.
-    - Run the code for different settings and compare to the HGPS observations to find the best match between model and observations.
-HESS J1804-216: What is the best candidate to be the origin of the unidentified gamma-ray source HESS J1804-216? What are the properties of the model?
+* **Model morphology** Run partISM for different settings and compare to the HGPS observations to find the best match between model and observations.
+HESS J1804-216: Can you find a model matching the gamma-ray emission (extract spectrum from HGPS catalogue)? What are the properties of the model?
 W28: Can you find a model matching the gamma-ray emission at different locations around the SNR? What are the properties?
-RX J1713-3946: Matching the gamma-ray observations of the supernova remnant itself, how much gamma-ray emission can we expect from the adjacent clouds?
+RX J1713-3946: Matching the gamma-ray observations of the supernova remnant itself (extract spectrum from HGPS catalogue), how much gamma-ray emission can we expect from the adjacent clouds?
 
-* **Investigation of Gamma-Ray Models** For one model, compare how different parameters influence the resulting spectrum. For example:
-    - nH: 100, 200, 300 1/cm^3
-    - Distance Earth to cloud: 1, 5, 10 kpc
-    - Distance SNR centre to cloud: 10, 50, 150, 200, 250 pc
-    - Cloud extension: 50, 100 pc
+
