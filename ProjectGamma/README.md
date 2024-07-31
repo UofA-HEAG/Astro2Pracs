@@ -1,6 +1,6 @@
 # Research Project: Gamma-Ray Observations of Active Galactic Nuclei
 
-Topics: Fermi-LAT, CTA, statistics, python programming, Active Galactic Nuclei, Extragalactic Background Light
+Topics: Fermi-LAT, CTAO, statistics, python programming, Active Galactic Nuclei, Extragalactic Background Light
 
 ## Motivation
 
@@ -9,18 +9,18 @@ Different wavebands provide different windows to AGN physics: The infrared band 
 
 Gamma-ray astronomy is a rather young research field and covers the study of the upper part of the electromagnetic spectrum (MeV to TeV energy regime). Depending on the targeted energy of the gamma rays, the measurement with satellite- or ground-based instruments is advantageous. High-energy (HE) gamma rays are typically measured with satellites, while very-high-energy (VHE) gamma rays are measured from the ground. Imaging Air Cherenkov Telescopes (IACTs) measure the Cherenkov light that is emitted by the extensive air shower, initiated by the gamma ray interacting with the Earth's atmosphere. The particles of this shower can also be detected using the water Cherenkov method.
 
-The Cherenkov Telescope Array (CTA) is the next-generation observatory for ground-based gamma-ray astronomy. With more than 100 telescopes equipped with state-of-the-art technologies, it will achieve unprecedented sensitivity and angular resolution, providing a new view of the sky at energies from 20 GeV to more than 300 TeV.
+The Cherenkov Telescope Array Observatory (CTAO) is the next-generation observatory for ground-based gamma-ray astronomy. With more than 100 telescopes equipped with state-of-the-art technologies, it will achieve unprecedented sensitivity and angular resolution, providing a new view of the sky at energies from 20 GeV to more than 300 TeV.
 
-CTA will be operated as a proposal-driven open observatory. This means that every observation has to be requested and an observation proposal has to be written. Therefore, this research project focuses on the necessary steps to develop such a proposal. 
+CTAO will be operated as a proposal-driven open observatory. This means that every observation has to be requested and an observation proposal has to be written. Therefore, this research project focuses on the necessary steps to develop such a proposal. 
 
 
 ## Schedule
-* Week 3 (August 8): Overleaf. Introduction gamma-ray astronomy.
+* Week 3: Overleaf. Introduction gamma-ray astronomy.
 * Week 4: Python
 * Week 5: Tasks
 * Week 6: Tasks
 * Week 7: Tasks
-* Week 8 (September 12): Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
+* Week 8: Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
 * Week 9 (October 3): Public holiday
 * October 4: Submission of the group report (!)
 
