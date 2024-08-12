@@ -29,3 +29,4 @@ dependencies:
   - naima
   - pandas
   - reproject
+  - healpy
