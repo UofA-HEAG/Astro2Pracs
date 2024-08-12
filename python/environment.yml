@@ -6,28 +6,26 @@ name: pracs
 
 channels:
   - conda-forge
-  - sherpa
 
 dependencies:
-  - gammapy=0.20
-  - python=3.8
-  - ipython=8.3
-  - cython
-  - jupyter
-  - jupyterlab=3.4.0
-  - pyyaml=6.0
-  - click=8.1.3
-  - numpy=1.22.3
-  - scipy=1.8.0
-  - pandas=1.4.2
-  - matplotlib=3.5.2
-  - astropy=5.0
-  - regions=0.6
-  - iminuit=2.11.2
-  - healpy=1.15
-  - naima=0.10.0
-  - pydantic=1.9.0
-  - emcee=3.1.1
-  - corner=2.2.1
+  - gammapy=1.2
+  - python=3.11
   - pip
-  - requests
+  - astropy
+  - click
+  - cython
+  - numpy>1.20
+  - pydantic>=2.5
+  - pyyaml
+  - regions>=0.5
+  - matplotlib>=3.4
+  - scipy!=1.10
+  - iminuit>=2.8.0
+  - extension-helpers
+  - tqdm
+  - ipython
+  - jupyter
+  - jupyterlab
+  - naima
+  - pandas
+  - reproject
