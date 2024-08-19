@@ -56,7 +56,7 @@ You should have a scientific motivation for your choice. Expanding the number of
     - Derive a functional form (by fitting, for example with the python package scipy.optimize) for the GeV/TeV spectrum after EBL absorption. The function needs to be available in gammapy (https://github.com/gammapy/gammapy/blob/master/gammapy/modeling/models/spectral.py; check: BrokenPowerLawSpectralModel, ExpCutoffPowerLaw[...]Model, LogParabol[...]Model, PowerLawSpectralModel, SmoothBrokenPowerLawSpectralModel).
 
 * **Simulation of a CTA measurement**. The python package gammapy allows a simulation of how many events would be measured by a specific telescope configuration (CTA site, telescope types) under specific observational conditions (zenith angle, pointing offset) in a given time for a specific spectrum. 
-    - An example can be found here: https://docs.gammapy.org/0.18.2/tutorials/spectrum_simulation.html
+    - An example can be found here: [https://docs.gammapy.org/0.18.2/tutorials/spectrum_simulation.html](https://docs.gammapy.org/1.2/tutorials/analysis-1d/spectrum_simulation.html)
     - Plot the effective area vs energy for different sites, zenith angles and pointing offsets (North/South site, 20/40 deg zenith - ask Sabrina for the IRFs). 
     - Calculate Non, Noff for different configurations of telescopes and observation. You will need a functional form of the TeV GeV/spectrum after EBL absorption.
 
