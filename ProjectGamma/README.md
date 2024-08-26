@@ -20,7 +20,8 @@ CTAO will be operated as a proposal-driven open observatory. This means that eve
 * Week 5: Tasks
 * Week 6: Tasks
 * Week 7: Tasks
-* Week 8/9: Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
+* Week 8: Tasks
+* Week 9: Structure your report, include figures and tables, write dot points. Discuss with Sabrina.
 * October 4: Submission of the group report (!)
 
 
