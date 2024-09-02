@@ -66,3 +66,5 @@ Think about the following questions:
 * **Description of the proposed observations**. Based on the above, describe the observations you would request in a proposal.
     - CTA-North or CTA-South
     - Table with observation time windows and corresponding zenith angle
+ 
+  
