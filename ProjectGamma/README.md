@@ -43,8 +43,7 @@ Think about the following questions:
 
 * **Estimation of the VHE spectrum based on the HE spectrum**. Gamma rays travelling through the Universe interact with the extragalactic background light (EBL) and will be absorbed. This means that the spectrum measured at Earth is different from the intrinsic spectrum at the source. To estimate the spectrum in VHE, the spectrum in HE can be extrapolated and corrected for the EBL.
     - Information about the EBL can be found here: https://www.sciencedirect.com/science/article/pii/S0927650512001740?via%3Dihub
-    - Ask Sabrina for data of the optical depth for the redshift of your source
-    - Derive a functional form (by fitting, for example with the python package scipy.optimize) for the GeV/TeV spectrum after EBL absorption. The function needs to be available in gammapy (https://github.com/gammapy/gammapy/blob/master/gammapy/modeling/models/spectral.py; check: BrokenPowerLawSpectralModel, ExpCutoffPowerLaw[...]Model, LogParabol[...]Model, PowerLawSpectralModel, SmoothBrokenPowerLawSpectralModel).
+    - gammapy has a model 'EBLAbsorptionNormSpectralModel' that allows to select different EBl models and different alpha normalisation values
 
 * **Simulation of a CTAO measurement**. The python package gammapy allows a simulation of how many events would be measured by a specific telescope configuration (CTA site, telescope types) under specific observational conditions (zenith angle, pointing offset) in a given time for a specific spectrum. 
     - An example can be found here: [https://docs.gammapy.org/1.2/tutorials/analysis-1d/spectrum_simulation.html]
@@ -53,7 +52,7 @@ Think about the following questions:
 * **Analysis of the simulated CTAO measurement**. Gammapy also allows an analysis of the simulated dataset.
     - An example can be found here (ignore the first part and ignore the loop over datasets of the same observation): [https://docs.gammapy.org/1.2/tutorials/analysis-1d/spectrum_simulation.html]
     - Plot the spectrum (absorbed and deabsorbed) for each AGN.
-    - Fit the deabsorbed spectrum (check which model and scaling factor gives the best result) for each AGN
+    - Fit the spectrum (check which model and scaling factor gives the best result) for each AGN
     - Which EBL model and which scaling factor was used, based on the results for all AGNs together?
 
 * **Estimation of required observation time and zenith angle**. How many hours (for each AGN separately) are required to recover the EBL model? How do the results change dependent on observation time? Which zenith angle is best to recover the EBL model? How do the results change dependent on zenith angle?
