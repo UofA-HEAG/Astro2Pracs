@@ -4,19 +4,19 @@
 ## Installation of Python via Anaconda
 
 #### MacOS
--	The Anaconda Installers can be found at the bottom of this page: https://www.anaconda.com/products/individual
+-	The Anaconda Installers can be found at this page: https://www.anaconda.com/download/success
 -	Download the Graphical Installer for Python 3.8 under MacOS
 -	Follow the instructions
 
 #### Windows
--	The Anaconda Installers can be found at the bottom of this page: https://www.anaconda.com/products/individual
+-	The Anaconda Installers can be found at this page: https://www.anaconda.com/download/success
 -	Download the Graphical Installer for Python 3.8 under Windows
 -	Follow the instructions
 
 Note: Here, 'Terminal' refers to the 'Anaconda Prompt'. 
 
 #### Linux
--	The Anaconda Installers can be found at the bottom of this page: https://www.anaconda.com/products/individual
+-	The Anaconda Installers can be found at this page: https://www.anaconda.com/download/success
 -	Download the Installer for Python 3.8 under Linux for your system (probably x86)
 -	In terminal:
 
