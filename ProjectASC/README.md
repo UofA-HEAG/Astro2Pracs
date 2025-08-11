@@ -1,4 +1,4 @@
-# Research Project: Gamma-Ray Observations of Active Galactic Nuclei
+# Research Project: Observations with Adelaide's All-Sky Camera: Studies of the Atmosphere & Stars, Novae and other Transients
 
 Topics: python programming, all-sky camera, analysis, atmosphere, stars, novae
 
