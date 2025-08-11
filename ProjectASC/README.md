@@ -14,5 +14,5 @@ Observations by any optical telescopes are affected by clouds and characteristic
 
 * **Introduction**. Read up on the following keywords: Atmospheric monitoring and devices, all-sky cameras and how to analyse their night-sky images, hipparcos star catalogue. Variable stars and astrophysical objects, novae. 
 Think about the following questions: 
-    - List different atmospheric conditions. How do atmospheric conditions influence astronomical images? What different devices / methods measure atmospheric conditions? How can we use an all-sky camera to measure atmospheric conditions?
-    - What type of variable astronomical objects are there? How can you get information about variability from star catalogues? What are novae? List the brightest novae of the past year that were visible from Australia (including their magnitude).
+    - List different atmospheric conditions. How do atmospheric conditions influence astronomical images? What different devices / methods measure atmospheric conditions? What are their advantages / disadvantages? How can all-sky cameras be used to measure atmospheric conditions?
+    - What type of variable astronomical objects are there? How can you get information about variability from star catalogues? What are novae? List the brightest novae of the past year that were visible from Australia (including their magnitude). How can all-sky cameras be used to measure astronomical objects and/or their variability?
