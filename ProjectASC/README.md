@@ -19,7 +19,7 @@ Think about the following questions:
 
 * **All-Sky Camera**. You can check the latest camera captures and download images here: [http://allsky.physics.adelaide.edu.au](http://allsky.physics.adelaide.edu.au/). You will first need to connect to the university's VPN. Ask Sabrina for the username/password for the database.
   
-* **quocca**. Install and familiarise with the all-sky camera software 'quocca'. There are different ways on how to set up and run it. Depending on your OS, experience etc, one might be easier than the other.
+* **quocca**. Install and familiarise with the all-sky camera software 'quocca'. (https://github.com/seinecke/quocca). There are different ways on how to set up and run it. Depending on your OS, experience etc, one might be easier than the other.
  - Using anaconda
  - Using Google Collab
 
