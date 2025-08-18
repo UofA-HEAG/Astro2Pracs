@@ -33,37 +33,13 @@ Think about the following questions:
     - What are Active Galactic Nuclei (AGN)? Which subtypes of AGN exist and how are they distinguished?
     - What is the extragalactic background light? How does this light influence gamma rays and the gamma-ray spectrum measured at Earth?
     
-* **Selection of the AGNs to be observed.** Select ~10 AGNs (blazars) from the Fermi-LAT catalogue, covering a redshift range of z=0...1. Consider the flux normalisation and spectral shape to pick sources that are likely to be detected in VHE. In case of FSRQs with z>0.8, assume that they are in a flaring state where the flux is 5 times the average flux.
-    - A catalogue of sources detected in HE (Fermi-LAT) can be found here: [https://fermi.gsfc.nasa.gov/ssc/data/access/lat/12yr_catalog/](https://heasarc.gsfc.nasa.gov/w3browse/fermi/fermilpsc.html).
-    - A catalogue of AGNs detected with Fermi-LAT: https://heasarc.gsfc.nasa.gov/w3browse/fermi/fermilac.html
-    - A catalogue of blazars including redshifts: https://heasarc.gsfc.nasa.gov/w3browse/all/romabzcat.html
+* **Science Question**. Discuss in the group the science question you want to investigate.
+  - Have a look at the CTAO Science book for some ideas: https://arxiv.org/pdf/1709.07997
+  - This group project will involve a simulation of the science question of interest. The following types of simulations are possible with gammapy: a) Simulation of an energy spectrum (energy vs flux). b) Simulation of a light curve (time vs flux) / simulation of a time-dependent energy spectrum (energy vs flux for different times). c) Simulation of a map (RA/DEC vs flux).
+  - Have a look through the tutorials to get an idea what kind of things can be done and how they look: https://docs.gammapy.org/1.3/tutorials/index.html
+Don't worry, the amount of information can look a bit overwhelming, but I will help you with coming up with more specific tasks and some gammapy examples once we have decided a direction.
 
-* **Fermi-LAT spectrum**. Based on the above catalogue(s), plot the spectral function and data points with uncertainties. Think about how to illustrate uncertainties and where to plot uncertainty bars. Calculate the uncertainty region of the spectral function (it will create a "butterfly").
-
-* **Estimation of the VHE spectrum based on the HE spectrum**. Gamma rays travelling through the Universe interact with the extragalactic background light (EBL) and will be absorbed. This means that the spectrum measured at Earth is different from the intrinsic spectrum at the source. To estimate the spectrum in VHE, the spectrum in HE can be extrapolated and corrected for the EBL.
-    - Information about the EBL can be found here: https://www.sciencedirect.com/science/article/pii/S0927650512001740?via%3Dihub
-    - gammapy has a model 'EBLAbsorptionNormSpectralModel' that allows to select different EBl models and different alpha normalisation values
-
-* **Simulation of a CTAO measurement**. The python package gammapy allows a simulation of how many events would be measured by a specific telescope configuration (CTA site, telescope types) under specific observational conditions (zenith angle, pointing offset) in a given time for a specific spectrum. 
-    - An example can be found here: [https://docs.gammapy.org/1.2/tutorials/analysis-1d/spectrum_simulation.html]
-    - Include the EBL absorption in your spectral model. Pick one of the available models and a scaling factor (but don't tell the 'analysis' task force - it's their task to recover this information).
- 
-* **Analysis of the simulated CTAO measurement**. Gammapy also allows an analysis of the simulated dataset.
-    - An example can be found here (ignore the first part and ignore the loop over datasets of the same observation): [https://docs.gammapy.org/1.2/tutorials/analysis-1d/spectrum_simulation.html]
-    - Plot the spectrum (absorbed and deabsorbed) for each AGN.
-    - Fit the spectrum (check which model and scaling factor gives the best result) for each AGN
-    - Which EBL model and which scaling factor was used, based on the results for all AGNs together?
-
-* **Estimation of required observation time and zenith angle**. How many hours (for each AGN separately) are required to recover the EBL model? How do the results change dependent on observation time? Which zenith angle is best to recover the EBL model? How do the results change dependent on zenith angle?
-
-* **Visibility**. IACTs can only observe during night time. Depending on the location of the telescope, different parts of the sky are visible under different zenith angles.
-    - You can derive the visibility of your source for different telescope locations here: http://tevcat.uchicago.edu/CustomVis.pl. For CTA-North, choose "MAGIC".
-    - Which CTA site is better suited for each AGN - CTA-North or CTA-South?
-    - Show the visibilities for one example source for the year 2025.
-    - Determine the time windows and zenith angles that are best suited to observe the proposed sources
-
-* **Description of the proposed observations**. Based on the above, describe the observations you would request in a proposal.
-    - CTA-North or CTA-South
-    - Table with observation time windows and corresponding zenith angle
- 
+* **gammapy**. There are different ways on how to set up and run gammapy. Depending on your OS, experience etc, one might be easier than the other.
+    - Using anaconda: https://docs.gammapy.org/1.3/getting-started/index.html
+    - Using Google Collab: See collab-gammapy.ipnb
   
