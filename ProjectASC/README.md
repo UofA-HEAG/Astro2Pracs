@@ -16,3 +16,15 @@ Observations by any optical telescopes are affected by clouds and characteristic
 Think about the following questions: 
     - List different atmospheric conditions. How do atmospheric conditions influence astronomical images? What different devices / methods measure atmospheric conditions? What are their advantages / disadvantages? How can all-sky cameras be used to measure atmospheric conditions?
     - What type of variable astronomical objects are there? How can you get information about variability from star catalogues? What are novae? List the brightest novae of the past year that were visible from Australia (including their magnitude). How can all-sky cameras be used to measure astronomical objects and/or their variability?
+
+* **All-Sky Camera**. You can check the latest camera captures and download images here: [http://allsky.physics.adelaide.edu.au](http://allsky.physics.adelaide.edu.au/). You will first need to connect to the university's VPN. Ask Sabrina for the username/password for the database.
+  
+* **quocca**. Install and familiarise with the all-sky camera software 'quocca'. There are different ways on how to set up and run it. Depending on your OS, experience etc, one might be easier than the other.
+ - Using anaconda
+ - Using Google Collab
+
+* **Initial tasks**.
+  - Check (physical) calibration: Mark the brightest stars in the image and check if they align with the visible stars
+  - Check above for different days over the last year (it might need re-calibration)
+  - Add labels with star names
+  - Pick a variable bright star and a non-variable bright star. Determine their brightness over a) multiple hours in one night b) multiple days/weeks.
