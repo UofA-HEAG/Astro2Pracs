@@ -39,7 +39,13 @@ Think about the following questions:
   - Have a look through the tutorials to get an idea what kind of things can be done and how they look: https://docs.gammapy.org/1.3/tutorials/index.html
 Don't worry, the amount of information can look a bit overwhelming, but I will help you with coming up with more specific tasks and some gammapy examples once we have decided a direction.
 
+* **naima**. Familiarise yourself with the software package naima (for modelling energy spectra).
+  - https://naima.readthedocs.io/en/latest/
+  - Install via '!pip install naima' (similar to gammapy)
+  - Further information and examples under https://github.com/seinecke/anita23/blob/main/lectures/se-lectures.pdf and https://github.com/seinecke/anita23/blob/main/naima/naima_models.ipynb
+ 
 * **gammapy**. There are different ways on how to set up and run gammapy. Depending on your OS, experience etc, one might be easier than the other.
     - Using anaconda: https://docs.gammapy.org/1.3/getting-started/index.html
     - Using Google Collab: See collab-gammapy.ipnb
+Familiarise yourself with simulating 1D spectra: https://docs.gammapy.org/1.3/tutorials/analysis-1d/spectrum_simulation.html#sphx-glr-tutorials-analysis-1d-spectrum-simulation-py
   
