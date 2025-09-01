@@ -55,4 +55,9 @@ Don't worry, the amount of information can look a bit overwhelming, but I will h
     - Using anaconda: https://docs.gammapy.org/1.3/getting-started/index.html
     - Using Google Collab: See collab-gammapy.ipnb
 Familiarise yourself with simulating 1D spectra: https://docs.gammapy.org/1.3/tutorials/analysis-1d/spectrum_simulation.html#sphx-glr-tutorials-analysis-1d-spectrum-simulation-py
+For an example spectrum:
+- Plot flux points for different observation times
+- Plot flux points for different zenith angles
+- Plot flux points for CTAO-North and CTAO-South
+- Plot flux points with and without EBL absorption for different redshifts
   
