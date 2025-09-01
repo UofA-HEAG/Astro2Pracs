@@ -44,6 +44,13 @@ Don't worry, the amount of information can look a bit overwhelming, but I will h
   - Install via '!pip install naima' (similar to gammapy)
   - Further information and examples under https://github.com/seinecke/anita23/blob/main/lectures/se-lectures.pdf and https://github.com/seinecke/anita23/blob/main/naima/naima_models.ipynb
  
+* **AGN selection**. A few resources to consider to choose one or more AGNs and to get some values for magentic fields etc
+  - CTA science book, AGN chapter, Figure 12.1 and references therein
+  - Review modelling tools, incl. naima: https://arxiv.org/pdf/2207.13525
+  - M87 (listed by CTA for high-quality spectra, and first image of black hole)
+  - Obtaining redshift sample for EBL: Examples from Table 12.2
+  - Blazars modelled with more complicated software: https://www.aanda.org/articles/aa/pdf/2024/01/aa47540-23.pdf
+ 
 * **gammapy**. There are different ways on how to set up and run gammapy. Depending on your OS, experience etc, one might be easier than the other.
     - Using anaconda: https://docs.gammapy.org/1.3/getting-started/index.html
     - Using Google Collab: See collab-gammapy.ipnb
