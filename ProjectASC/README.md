@@ -32,7 +32,7 @@ Think about the following questions:
 * **Tasks**
   Select different analysis time ranges, and assign one to each member of the group. For each of them:
   - Find a 'reference night', i.e. a clear night without clouds and minimum light pollution / moon
-  - Calibrate the camera parameters and check calibration
+  - Calibrate the camera parameters and check calibration. Make a histogram of the distances between catalog position and fitted position (for large population of stars). Now make a 2d histogram with true magnitude vs above distance.
   - Estimate the point spread function (sigma)
   - Estimate the size of the crop around a star (fit_size)
   - Use the estimated sigma and fit_size in the settings of the detection methods (llh and filter) and compare the methods (e.g. by looking at the 2D histogram of true vs fitted magnitude)
