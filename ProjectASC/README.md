@@ -28,3 +28,17 @@ Think about the following questions:
   - Check above for different days over the last year (it might need re-calibration)
   - Add labels with star names
   - Pick a variable bright star and a non-variable bright star. Determine their brightness over a) multiple hours in one night b) multiple days/weeks.
+ 
+* **Tasks**
+  Select different analysis time ranges, and assign one to each member of the group. For each of them:
+  - Find a 'reference night', i.e. a clear night without clouds and minimum light pollution / moon
+  - Calibrate the camera parameters and check calibration
+  - Estimate the point spread function (sigma)
+  - Estimate the size of the crop around a star (fit_size)
+  - Use the estimated sigma and fit_size in the settings of the detection methods (llh and filter) and compare the methods (e.g. by looking at the 2D histogram of true vs fitted magnitude)
+  - Calibrate the fitted magnitude to correspond to the star's magnitude.
+  - Add calibration line to above 2D histogram.
+Pick a) a bright variable star (i.e. cepheid) and b) a bright astronomical transient (e.g. nova). For each:
+- Determine the fitted magnitude with at least one image per night over your entire analysis period.
+- Combine results with other group members.
+- Discuss the derived light curves (time vs magnitude).
