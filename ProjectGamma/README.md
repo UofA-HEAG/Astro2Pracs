@@ -60,4 +60,5 @@ For an example spectrum:
 - Plot flux points for different zenith angles
 - Plot flux points for CTAO-North and CTAO-South
 - Plot flux points with and without EBL absorption for different redshifts
+Use 'TemplateSpectralModel' to simulate the spectrum modelled with naima.
   
